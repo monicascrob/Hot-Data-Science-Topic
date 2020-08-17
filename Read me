@@ -1,0 +1,34 @@
+Guided Project: Popular Data Science Questions
+
+Context: 
+
+We are working for a company that creates data science content, be it books, online articles, videos or interactive text-based platforms like Dataquest. 
+We need to figure out what is best content to write about. 
+
+The question we are trying to answer is: "What is it that people want to learn about in data science?" 
+
+Some of the resources we can use for this are Stack Overflow and [Stack Exchange](https://stackexchange.com/tour). There are quit a few Stack Exchange websites that are relevant to our goal: 
+- [Data Science](https://datascience.stackexchange.com/)
+- [Cross Validated](https://stats.stackexchange.com/)
+- [Artificial Intelligence](https://ai.stackexchange.com/)
+- [Mathematics](https://math.stackexchange.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Database Administrators](https://dba.stackexchange.com/)
+- [Unix & Linux](https://unix.stackexchange.com/)
+- [Software Engineering](https://softwareengineering.stackexchange.com/)
+
+After investigating the website, we decided that we can use tags in categorizing content. We can take a look at the database schema [here](https://data.stackexchange.com/datascience/query/new).
+
+Some other tables that might be interesting other than tags:
+- Posts: includes information about Id, PostTypeId, CreationDate, Score, ViewCount, Tags, AnswerCount, FavoriteCount
+- Users: includes information about views, upvotes/downvotes, user's reputation score, user's location
+- Comments: score and content
+
+The Posts table includes most of the informaiton we want that shows how popular the post is.
+We're only interested in recent posts, so we'll limit our analysis to 2019.
+
+Deep learning was a very trending topic in the data science stack exchange from the begining. Even if it is not trending now, but it hit a plateau, it doesn't seem that the interest in the topic is decreasing.
+
+In conclusion, to answer the question we asked in the beginning: "What is it that people want to learn about in data science?" we could safely say that Deep Learning is a good topic to choose and recommend to the company to create content in the future.
+
+
