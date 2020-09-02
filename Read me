@@ -24,10 +24,10 @@ Some other tables that might be interesting other than tags:
 - Users: includes information about views, upvotes/downvotes, user's reputation score, user's location
 - Comments: score and content
 
-The Posts table includes most of the informaiton we want that shows how popular the post is.
+The Posts table includes most of the information we want that shows how popular the post is.
 We're only interested in recent posts, so we'll limit our analysis to 2019.
 
-Deep learning was a very trending topic in the data science stack exchange from the begining. Even if it is not trending now, but it hit a plateau, it doesn't seem that the interest in the topic is decreasing.
+Deep learning was a very trending topic in the data science stack exchange from the beginning. Even if it is not trending now, but it hit a plateau, it doesn't seem that the interest in the topic is decreasing.
 
 In conclusion, to answer the question we asked in the beginning: "What is it that people want to learn about in data science?" we could safely say that Deep Learning is a good topic to choose and recommend to the company to create content in the future.
 
